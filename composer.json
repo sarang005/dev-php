@@ -1,0 +1,19 @@
+{
+    "name": "ee/calculator",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sarang005",
+            "email": "sarangbelsare0005@gmail.com"
+        }
+    ],"autoload": {
+        "psr-4": {"EE\\": "src/EE"}
+    },
+    "autoload-dev": {
+        "psr-4": {"EE\\": "tests/EE"}
+    },
+    "require": {
+        "symfony/console": "^3.4"
+    }
+}
